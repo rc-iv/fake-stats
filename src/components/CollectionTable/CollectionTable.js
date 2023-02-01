@@ -33,6 +33,9 @@ const CollectionTable = (props) => {
             <Column field="meme_passes"
                     sortable header="MemePasses Held"
                     headerTooltip="Total meme passes held by holders of this collection."/>
+            <Column field="owners"
+                    sortable header="Owners"
+                    headerTooltip="Number of unique owners of this collection"/>
             <Column field="full_set_owners"
                     sortable header="Full Set Owners"
                     headerTooltip="Number of owners who own a full S0 meme card set"/>
@@ -44,9 +47,6 @@ const CollectionTable = (props) => {
                     headerTooltip="Number of owners who own a master pass"/>
             <Column field="floor_price"
                     sortable header="Floor"/>
-            <Column field="owners"
-                    sortable header="Owners"
-                    headerTooltip="Number of unique owners of this collection"/>
         </DataTable>
     );
 }
