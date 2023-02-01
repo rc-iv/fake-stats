@@ -39,7 +39,7 @@ const CollectionTable = (props) => {
             <Column field="meme_pass_owners"
                     sortable header="MemePass Owners"
                     headerTooltip="Number of owners who own a meme pass"/>
-            <Column field="master_owners"
+            <Column field="master_pass_owners"
                     sortable header="MasterPass Owners"
                     headerTooltip="Number of owners who own a master pass"/>
             <Column field="floor_price"
