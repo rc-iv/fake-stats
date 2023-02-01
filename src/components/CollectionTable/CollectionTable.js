@@ -17,7 +17,7 @@ const CollectionTable = (props) => {
                    sortOrder={-1}
                    stripedRows='true'
                    scrollable
-                   scrollHeight="500px"
+                   scrollHeight="600px"
                    theme='md-dark-indigo'
                    style={{fontSize: '14px', fontWeight: 'bold'}}
         >
