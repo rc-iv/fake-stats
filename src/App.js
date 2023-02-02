@@ -22,6 +22,8 @@ function App() {
             const response = await fetch(
                 `https://h4vyubq593.execute-api.us-east-1.amazonaws.com/collections/${memeKeys[key]}`);
             let meme_stats =await response.json()
+            // convert meme_stats.floor_price  to float
+            meme_stats.floor_price = parseFloat(meme_stats.floor_price)
             dataList.push(meme_stats)
         }
         setCollectionData(dataList);
